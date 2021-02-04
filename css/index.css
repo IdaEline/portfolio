@@ -1,0 +1,213 @@
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.redline {
+    width: 50px;
+    border-top: 2px solid #e95540; 
+    margin-top: 12px;
+}
+
+a:hover { color: #e95540;
+}
+
+.active {
+    font-weight: 600 !important;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.header-container {
+    width: 100vw !important;
+}
+.header-image {
+    background-image: url(/images/building.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .header-image, .header-second {
+        height: 50vh;
+    }
+
+    h1{
+        font-size: 50px !important;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+.black{
+    color:black;
+}
+
+    section {
+        min-height: 50vh !important;
+    }
+
+    .line-one
+    {
+        width: 95% !important;
+    }
+    
+    .line-two{
+        width: 95% !important;
+    }
+    
+    .line-three{
+        width: 95% !important;
+    }
+    
+    .line-four{
+        width: 95% !important;
+    }
+
+    h2 {
+        font-size: 1.2rem !important;
+    }
+
+    p {
+        font-size: 0.9rem !important;
+    }
+
+    .link
+    {
+        font-size: 0.9rem !important;
+    }
+
+    li {
+        font-size: 0.9rem !important;
+    }
+
+    a {
+        font-size: 0.9rem !important;
+    }
+
+}
+
+    
+
+
+
+section {
+    min-height: 100vh;
+}
+h1{
+    font-size: 80px;
+    font-family: linotype-didot-headline, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headlinewhite {
+    color:white;
+}
+
+p {
+    font-size: 1rem;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.link
+{
+    color:black !important;
+    font-family: freight-sans-pro, sans-serif !important;
+    font-weight:300 !important;
+    font-style: normal !important;
+    border-bottom: 2px solid #e95540 !important;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.link:hover { color:#e95540 !important;
+
+}
+
+h2{
+    font-family: source-sans-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-top: 3.1px;
+}
+
+li {
+    font-size: 0.95rem;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.morelink
+{
+    font-size: 0.95rem;
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color:black;
+
+}
+
+.morelink:hover
+{color:#e95540 !important;
+
+}
+
+.line-one
+{
+    border-bottom: 2px solid #faeda5 !important;
+    width: 85%;
+}
+
+.line-two{
+    border-bottom: 2px solid #ffcc99 !important;
+    width: 85%;
+}
+
+.line-three{
+    border-bottom: 2px solid #e95540 !important;
+    width: 85%;
+}
+
+.line-four{
+    border-bottom: 2px solid #faeda5 !important;
+    width: 85%;
+}
+.square-one {
+    width: 25px;
+    height: 25px;
+    background-color:#ffcc99;
+}
+
+.square-two {
+    width: 25px;
+    height: 25px;
+    background-color:#e95540;
+}
+
+.square-three {
+    width: 25px;
+    height: 25px;
+    background-color:#faeda5;
+}
+
+.square-four {
+    width: 25px;
+    height: 25px;
+    background-color:#ffcc99;
+}
